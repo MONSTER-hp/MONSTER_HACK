@@ -1,7 +1,16 @@
+# __  __  ___  _   _ ____ _____ _____ ____      _   _    _    ____ _  __ 
+#|  \/  |/ _ \| \ | / ___|_   _| ____|  _ \    | | | |  / \  / ___| |/ / 
+#| |\/| | | | |  \| \___ \ | | |  _| | |_) |   | |_| | / _ \| |   | ' /  
+#| |  | | |_| | |\  |___) || | | |___|  _ <    |  _  |/ ___ \ |___| . \  
+#|_|  |_|\___/|_| \_|____/ |_| |_____|_| \_\___|_| |_/_/   \_\____|_|\_\ 
+#                                         |_____|                        
+#      >>> GitHub : https://github.com/MONSTER-hp/MONSTER_HACK <<<
+#        >>> Telegram Chanell : https://t.me/MONSTER_SECURIT <<<
+#          >>> Web Sayte : www.Monster-Security.blogfa.com <<<
+#                         </> MONSTER_hp </>
+
+
 import os
-os.system('clear')
-os.system('clear')
-os.system('clear')
 os.system('clear')
 print"""\033[92m
  __  __  ___  _   _ ____ _____ _____ ____      _   _    _    ____ _  __ 
@@ -11,17 +20,16 @@ print"""\033[92m
 |_|  |_|\___/|_| \_|____/ |_| |_____|_| \_\___|_| |_/_/   \_\____|_|\_\ 
                                          |_____|                        
 """
+print"""\033[95m
+   >>> GitHub : https://github.com/MONSTER-hp/MONSTER_HACK <<<
+"""
 print"""\033[96m
-        >>> Telegram Chanell : https://t.me/MONSTER_SECURIT <<<
-"""
-print"""\033[93m
-          >>> Web Sayte : www.Monster-Security.blogfa.com <<<
-"""
-print"""\033[92m
-                         </> MONSTER_hp </>
+     >>> Telegram Chanell : https://T.me/MONSTER_SECURIT <<<
 """
 print"""\033[91m
-
+       >>> Web Sayte : www.Monster-Security.blogfa.com <<<
+"""
+print"""\033[93m
 ==============================================================
                              Web
 ==============================================================
@@ -34,23 +42,23 @@ print"""\033[94m
  [5]: </> RapidScan </>
  [6]: </> Admin_Penal </>
 """
-print"""\033[93m
+print"""\033[90m
 ==============================================================
                             Bombers
 ==============================================================
 """
-print"""\033[96m
+print"""\033[92m
  [7]: </> SpamSms </>
  [8]: </> Email-Spammer </>
  [9]: </> SpazSMS </>
  [10]: </> TBomb </>
 """
-print"""\033[95m
+print"""\033[91m
 ==============================================================
                             Hacking
 ==============================================================
 """
-print"""\033[91m
+print"""\033[93m
  [11]: </> Cam_Hackers </>
  [12]: </> IP-tracer </>
  [13]: </> IPGeoLocation </>
@@ -64,14 +72,25 @@ print"""\033[90m
                             Cracker
 ==============================================================
 """
-print"""\033[92m
+print"""\033[94m
  [18]: </> Black_Hydra </>
  [19]: </> Gmail_Attacker </>
  [20]: </> Instahack </>
+ """
+print"""\033[96m
+=============================================================
+                            Update
+=============================================================
+"""
+print"""\033[95m
+ [21]: </> Install All Pkg Termux </>
+ """
+print"""\033[92m
+ [99]: </> Exit </>
 """
 
-
 x= input('Enter Number For Install :')
+m= raw_input("Enter You For Install[Y/n]")
 
 if x== 1:
 	os.system("pkg install git")
@@ -267,3 +286,49 @@ if x== 20:
 	os.system("cd instahack")
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
+	
+if x== 21:
+	os.system("pkg install git")
+	os.system("pkg install update")
+	os.system("pkg install upgrade")
+	os.system("pkg install php")
+	os.system("pkg install python")
+	os.system("pkg install python2")
+	os.system("pkg install golang")
+	os.system("pkg install host")
+	os.system("pkg install nano")
+	os.system("pkg install havij")
+	os.system("pkg install hydra")
+	os.system("pkg install wireshark")
+	os.system("pkg install cmatrix")
+	os.system("pkg install figlet")
+	os.system("pkg install wget")
+	os.system("pkg install wireshark")
+	os.system("pkg install cowsay")
+	os.system("pkg install toilet")
+	os.system("pkg install ruby")
+	os.system("pkg install help")
+	os.system("pkg install lolcat")
+	os.system("pkg install curl")
+	os.system("pkg install wgetrc")
+	os.system("pkg install unzip")
+	os.system("pkg install openssh")
+	os.system("pkg install tor")
+	os.system("pkg install uzip")
+	os.system("pkg install net-tools")
+	os.system("pkg install unrar")
+	os.system("pkg install clang")
+	os.system("pkg install w3m")
+	os.system("pkg install proot")
+	os.system("pkg install requests")
+	os.system("pkg install openssl")
+	os.system("pkg install fish")
+	os.system("pkg install sh")
+	os.system("pkg install java")
+	os.system("pkg install sql")
+	os.system("pkg install html")
+	os.system("pkg install javaScript")
+	os.system("pkg upgrade")
+	
+if x== 99:
+	os.system("clear")
