@@ -1,14 +1,3 @@
-# __  __  ___  _   _ ____ _____ _____ ____      _   _    _    ____ _  __ 
-#|  \/  |/ _ \| \ | / ___|_   _| ____|  _ \    | | | |  / \  / ___| |/ / 
-#| |\/| | | | |  \| \___ \ | | |  _| | |_) |   | |_| | / _ \| |   | ' /  
-#| |  | | |_| | |\  |___) || | | |___|  _ <    |  _  |/ ___ \ |___| . \  
-#|_|  |_|\___/|_| \_|____/ |_| |_____|_| \_\___|_| |_/_/   \_\____|_|\_\ 
-#                                         |_____|                        
-#      >>> GitHub : https://github.com/MONSTER-hp/MONSTER_HACK <<<
-#        >>> Telegram Chanell : https://t.me/MONSTER_SECURIT <<<
-#          >>> Web Sayte : www.Monster-Security.blogfa.com <<<
-#                         </> MONSTER_hp </>
-
 
 import os
 os.system('clear')
