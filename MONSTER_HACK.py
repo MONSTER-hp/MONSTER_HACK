@@ -41,6 +41,7 @@ print"""\033[94m
  [4]: </> RED_HAWK </>
  [5]: </> RapidScan </>
  [6]: </> Admin_Penal </>
+ [7]: </> Monster_Attacker </>
 """
 print"""\033[90m
 ==============================================================
@@ -48,10 +49,10 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[92m
- [7]: </> SpamSms </>
- [8]: </> Email-Spammer </>
- [9]: </> SpazSMS </>
- [10]: </> TBomb </>
+ [8]: </> SpamSms </>
+ [9]: </> Email-Spammer </>
+ [10]: </> SpazSMS </>
+ [11]: </> TBomb </>
 """
 print"""\033[91m
 ==============================================================
@@ -59,13 +60,13 @@ print"""\033[91m
 ==============================================================
 """
 print"""\033[93m
- [11]: </> Cam_Hackers </>
- [12]: </> IP-tracer </>
- [13]: </> IPGeoLocation </>
- [14]: </> Cam </>
- [15]: </> HackVoice </>
- [16]: </> Fakepage </>
- [17]: </> Zphisher </>
+ [12]: </> Cam_Hackers </>
+ [13]: </> IP-tracer </>
+ [14]: </> IPGeoLocation </>
+ [15]: </> Cam </>
+ [16]: </> HackVoice </>
+ [17]: </> Fakepage </>
+ [18]: </> Zphisher </>
 """
 print"""\033[90m
 ==============================================================
@@ -73,9 +74,9 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[94m
- [18]: </> Black_Hydra </>
- [19]: </> Gmail_Attacker </>
- [20]: </> Instahack </>
+ [19]: </> Black_Hydra </>
+ [20]: </> Gmail_Attacker </>
+ [21]: </> Instahack </>
  """
 print"""\033[96m
 =============================================================
@@ -83,7 +84,7 @@ print"""\033[96m
 =============================================================
 """
 print"""\033[95m
- [21]: </> Install All Pkg Termux </>
+ [22]: </> Install All Pkg Termux </>
  """
 print"""\033[92m
  [99]: </> Exit </>
@@ -146,8 +147,16 @@ if x== 6:
 	os.system("chmod +x *")
 	os.system("python2 admin_panel_finder.py")
 	
-
 if x== 7:
+	os.system("pkg install git")
+	os.system("pkg install python")
+	os.system("pkg install python2")
+	os.system("git clone https://github.com/MONSTER-hp/Monster_Attacker")
+	os.system("cd Monster_Attacker")
+	os.system("chmod +x *")
+	os.system("python Monster_Attacker.py")
+
+if x== 8:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -156,7 +165,7 @@ if x== 7:
 	os.system("chmod +x *")
 	os.system("python main.py")
 	
-if x== 8:
+if x== 9:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
@@ -168,7 +177,7 @@ if x== 8:
 	os.system("bash install.sh")
 	os.system("python2 Email-Spam.py")
 	
-if x== 9:
+if x== 10:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -177,7 +186,7 @@ if x== 9:
 	os.system("chmod +x *")
 	os.system("python2 phd.py")
 	
-if x== 10:
+if x== 11:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
@@ -189,7 +198,7 @@ if x== 10:
 	os.system("bash TBomb.sh")
 	os.system("TBomb")
 	
-if x== 11:
+if x== 12:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -198,7 +207,7 @@ if x== 11:
 	os.system("chmod +x *")
 	os.system("python cam-hackers.py")
 	
-if x== 12:
+if x== 13:
 	os.system("pkg install git")
 	os.system("pkg install fish")
 	os.system("pkg install sh")
@@ -207,7 +216,7 @@ if x== 12:
 	os.system("chmod +x *")
 	os.system("bash install")
 	
-if x== 13:
+if x== 14:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -217,7 +226,7 @@ if x== 13:
 	os.system("pip install -r requirements.txt")
 	os.system("python IPGeoLocation.py")
 	
-if x== 14:
+if x== 15:
 	os.system("pkg install git")
 	os.system("pkg install php")
 	os.system("pkg install wget")
@@ -230,7 +239,7 @@ if x== 14:
 	os.system("chmod +x *")
 	os.system("bash cam.sh")
 	
-if x== 15:
+if x== 16:
 	os.system("pkg install git")
 	os.system("pkg install php")
 	os.system("pkg install wget")
@@ -242,14 +251,14 @@ if x== 15:
 	os.system("chmod +x *")
 	os.system("bash voice.sh")
 	
-if x== 16:
+if x== 17:
 	os.system("pkg install git")
 	os.system("git clone https://github.com/HACKGM/fakepage")
 	os.system("cd fakepage")
 	os.system("chmod +x *")
 	os.system("bash fakepage.sh")
 	
-if x== 17:
+if x== 18:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
@@ -259,7 +268,7 @@ if x== 17:
 	os.system("chmod +x *")
 	os.system("bash zphisher.sh")
 	
-if x== 18:
+if x== 19:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -268,7 +277,7 @@ if x== 18:
 	os.system("chmod +x *")
 	os.system("python2 Black-Hydra.py")
 	
-if x== 19:
+if x== 20:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -277,7 +286,7 @@ if x== 19:
 	os.system("chmod +x *")
 	os.system("python gmail_attacker.py")
 	
-if x== 20:
+if x== 21:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -287,7 +296,7 @@ if x== 20:
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
 	
-if x== 21:
+if x== 22:
 	os.system("pkg install git")
 	os.system("pkg install update")
 	os.system("pkg install upgrade")
@@ -328,6 +337,8 @@ if x== 21:
 	os.system("pkg install sql")
 	os.system("pkg install html")
 	os.system("pkg install javaScript")
+	os.system("pkg install golang")
+	os.system("pkg install binutils")
 	os.system("pkg upgrade")
 	
 if x== 99:
