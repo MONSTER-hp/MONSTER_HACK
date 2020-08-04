@@ -1,3 +1,14 @@
+# __  __  ___  _   _ ____ _____ _____ ____      _   _    _    ____ _  __ 
+#|  \/  |/ _ \| \ | / ___|_   _| ____|  _ \    | | | |  / \  / ___| |/ / 
+#| |\/| | | | |  \| \___ \ | | |  _| | |_) |   | |_| | / _ \| |   | ' /  
+#| |  | | |_| | |\  |___) || | | |___|  _ <    |  _  |/ ___ \ |___| . \  
+#|_|  |_|\___/|_| \_|____/ |_| |_____|_| \_\___|_| |_/_/   \_\____|_|\_\ 
+#                                         |_____|                        
+#      >>> GitHub : https://github.com/MONSTER-hp/MONSTER_HACK <<<
+#        >>> Telegram Chanell : https://t.me/MONSTER_SECURIT <<<
+#          >>> Web Sayte : www.Monster-Security.blogfa.com <<<
+#                         </> MONSTER_hp </>
+
 
 import os
 os.system('clear')
@@ -56,6 +67,7 @@ print"""\033[93m
  [16]: </> HackVoice </>
  [17]: </> Fakepage </>
  [18]: </> Zphisher </>
+ [19]: </> MRlocation </>
 """
 print"""\033[90m
 ==============================================================
@@ -63,9 +75,9 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[94m
- [19]: </> Black_Hydra </>
- [20]: </> Gmail_Attacker </>
- [21]: </> Instahack </>
+ [20]: </> Black_Hydra </>
+ [21]: </> Gmail_Attacker </>
+ [22]: </> Instahack </>
  """
 print"""\033[96m
 =============================================================
@@ -73,7 +85,7 @@ print"""\033[96m
 =============================================================
 """
 print"""\033[95m
- [22]: </> Install All Pkg Termux </>
+ [23]: </> Install All Pkg Termux </>
  """
 print"""\033[92m
  [99]: </> Exit </>
@@ -257,7 +269,19 @@ if x== 18:
 	os.system("chmod +x *")
 	os.system("bash zphisher.sh")
 	
-if x== 19:
+	if x== 19:
+	os.system("pkg install git")
+	os.system("pkg install python")
+	os.system("pkg install python2")
+	os.system("pkg install php")
+	os.system("pkg install openssh")
+	os.system("pip3 install pyTelegramBotAPI")
+	os.system("git clone https://github.com/mr0sploit/mrlocation")
+	os.system("cd mrlocation")
+	os.system("chmod +x *")
+	os.system("python3 mrlocation.py")
+	
+if x== 20:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -266,7 +290,7 @@ if x== 19:
 	os.system("chmod +x *")
 	os.system("python2 Black-Hydra.py")
 	
-if x== 20:
+if x== 21:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -275,7 +299,7 @@ if x== 20:
 	os.system("chmod +x *")
 	os.system("python gmail_attacker.py")
 	
-if x== 21:
+if x== 22:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -285,7 +309,7 @@ if x== 21:
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
 	
-if x== 22:
+if x== 23:
 	os.system("pkg install git")
 	os.system("pkg install update")
 	os.system("pkg install upgrade")
@@ -328,6 +352,7 @@ if x== 22:
 	os.system("pkg install javaScript")
 	os.system("pkg install golang")
 	os.system("pkg install binutils")
+	os.system("pkg install pyTelegramBotAPI")
 	os.system("pkg upgrade")
 	
 if x== 99:
