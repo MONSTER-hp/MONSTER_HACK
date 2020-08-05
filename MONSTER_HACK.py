@@ -201,7 +201,7 @@ if x== 12:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
-	os.system("git clone git clone https://github.com/maldevel/IPGeoLocation")
+	os.system("git clone https://github.com/maldevel/IPGeoLocation")
 	os.system("cd IPGeoLocation")
 	os.system("chmod +x *")
 	os.system("pip install -r requirements.txt")
