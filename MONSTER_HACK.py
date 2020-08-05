@@ -66,6 +66,7 @@ print"""\033[93m
  [15]: </> Fakepage </>
  [16]: </> Zphisher </>
  [17]: </> MRlocation </>
+ [18]: </> Clipboard </>
 """
 print"""\033[90m
 ==============================================================
@@ -73,9 +74,9 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[94m
- [18]: </> Black_Hydra </>
- [19]: </> Gmail_Attacker </>
- [20]: </> Instahack </>
+ [19]: </> Black_Hydra </>
+ [20]: </> Gmail_Attacker </>
+ [21]: </> Instahack </>
  """
 print"""\033[96m
 =============================================================
@@ -83,7 +84,8 @@ print"""\033[96m
 =============================================================
 """
 print"""\033[95m
- [21]: </> Install All Pkg Termux </>
+ [22]: </> Install All Pkg Termux </>
+ [23]: </> Install All Pkg Kali Linux </>
  """
 print"""\033[92m
  [99]: </> Exit </>
@@ -263,6 +265,17 @@ if x== 17:
 	
 if x== 18:
 	os.system("pkg install git")
+	os.system("pkg install wget")
+	os.system("pkg install php")
+	os.system("pkg install openssl")
+	os.system("pkg install openssh")
+	os.system("git clone https://github.com/HACKGM/clipboard")
+	os.system("cd clipboard")
+	os.system("chmod +x *")
+	os.system("bash install.sh")
+	
+if x== 19:
+	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
 	os.system("git clone https://github.com/Gameye98/Black-Hydra")
@@ -270,7 +283,7 @@ if x== 18:
 	os.system("chmod +x *")
 	os.system("python2 Black-Hydra.py")
 	
-if x== 19:
+if x== 20:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -279,7 +292,7 @@ if x== 19:
 	os.system("chmod +x *")
 	os.system("python gmail_attacker.py")
 	
-if x== 20:
+if x== 21:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -289,7 +302,7 @@ if x== 20:
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
 	
-if x== 21:
+if x== 22:
 	os.system("pkg install git")
 	os.system("pkg install update")
 	os.system("pkg install upgrade")
@@ -333,6 +346,52 @@ if x== 21:
 	os.system("pkg install golang")
 	os.system("pkg install binutils")
 	os.system("pkg install pyTelegramBotAPI")
+	os.system("pkg upgrade")
+	
+if x== 23:
+	os.system("sudo apt install git")
+	os.system("sudo apt install update")
+	os.system("sudo apt install upgrade")
+	os.system("sudo apt install php")
+	os.system("sudo apt install python")
+	os.system("sudo apt install python2")
+	os.system("sudo apt install golang")
+	os.system("sudo apt install host")
+	os.system("sudo apt install nano")
+	os.system("sudo apt install havij")
+	os.system("sudo apt install hydra")
+	os.system("sudo apt install wireshark")
+	os.system("sudo apt install cmatrix")
+	os.system("sudo apt install figlet")
+	os.system("sudo apt install wget")
+	os.system("sudo apt install wireshark")
+	os.system("sudo apt install cowsay")
+	os.system("sudo apt install toilet")
+	os.system("sudo apt install ruby")
+	os.system("sudo apt install help")
+	os.system("sudo apt install lolcat")
+	os.system("sudo apt install curl")
+	os.system("sudo apt install wgetrc")
+	os.system("sudo apt install unzip")
+	os.system("sudo apt install openssh")
+	os.system("sudo apt install tor")
+	os.system("sudo apt install uzip")
+	os.system("sudo apt install net-tools")
+	os.system("sudo apt install unrar")
+	os.system("sudo apt install clang")
+	os.system("sudo apt install w3m")
+	os.system("sudo apt install proot")
+	os.system("sudo apt install requests")
+	os.system("sudo apt install openssl")
+	os.system("sudo apt install fish")
+	os.system("sudo apt install sh")
+	os.system("sudo apt install java")
+	os.system("sudo apt install sql")
+	os.system("sudo apt install html")
+	os.system("sudo apt install javaScript")
+	os.system("sudo apt install golang")
+	os.system("sudo apt install binutils")
+	os.system("sudo apt install pyTelegramBotAPI")
 	os.system("pkg upgrade")
 	
 if x== 99:
