@@ -66,7 +66,8 @@ print"""\033[93m
  [15]: </> Fakepage </>
  [16]: </> Zphisher </>
  [17]: </> MRlocation </>
- [18]: </> Clipboard </>
+ [18]: </> Clipboard 
+ [19]: </> MetasPloit</>
 """
 print"""\033[90m
 ==============================================================
@@ -74,9 +75,9 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[94m
- [19]: </> Black_Hydra </>
- [20]: </> Gmail_Attacker </>
- [21]: </> Instahack </>
+ [20]: </> Black_Hydra </>
+ [21]: </> Gmail_Attacker </>
+ [22]: </> Instahack </>
  """
 print"""\033[96m
 =============================================================
@@ -84,8 +85,8 @@ print"""\033[96m
 =============================================================
 """
 print"""\033[95m
- [22]: </> Install All Pkg Termux </>
- [23]: </> Install All Pkg Kali Linux </>
+ [23]: </> Install All Pkg Termux </>
+ [24]: </> Install All Pkg Kali Linux </>
  """
 print"""\033[92m
  [99]: </> Exit </>
@@ -275,6 +276,11 @@ if x== 18:
 	os.system("bash install.sh")
 	
 if x== 19:
+	os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh")
+	os.system("wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh")
+
+	
+if x== 20:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -283,7 +289,7 @@ if x== 19:
 	os.system("chmod +x *")
 	os.system("python2 Black-Hydra.py")
 	
-if x== 20:
+if x== 21:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -292,7 +298,7 @@ if x== 20:
 	os.system("chmod +x *")
 	os.system("python gmail_attacker.py")
 	
-if x== 21:
+if x== 22:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -302,7 +308,7 @@ if x== 21:
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
 	
-if x== 22:
+if x== 23:
 	os.system("pkg install git")
 	os.system("pkg install update")
 	os.system("pkg install upgrade")
@@ -348,7 +354,7 @@ if x== 22:
 	os.system("pkg install pyTelegramBotAPI")
 	os.system("pkg upgrade")
 	
-if x== 23:
+if x== 24:
 	os.system("sudo apt install git")
 	os.system("sudo apt install update")
 	os.system("sudo apt install upgrade")
