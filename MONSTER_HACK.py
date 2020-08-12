@@ -61,7 +61,7 @@ print"""\033[93m
  [10]: </> Cam_Hackers </>
  [11]: </> IP-tracer </>
  [12]: </> IPGeoLocation </>
- [13]: </> Cam </>
+ [13]: </> Monster_WebCam </>
  [14]: </> HackVoice </>
  [15]: </> Fakepage </>
  [16]: </> Zphisher </>
@@ -217,11 +217,12 @@ if x== 13:
 	os.system("pkg install sh")
 	os.system("pkg install fish")
 	os.system("pkg install openssl")
+	os.system("pkg install openssh")
 	os.system("pkg install curl")
-	os.system("git clone https://github.com/HACKGM/cam")
-	os.system("cd cam")
+	os.system("git clone https://github.com/MONSTER-hp/Monster_WebCam")
+	os.system("cd Monster_WebCam")
 	os.system("chmod +x *")
-	os.system("bash cam.sh")
+	os.system("bash Monster_WebCam.sh")
 	
 if x== 14:
 	os.system("pkg install git")
