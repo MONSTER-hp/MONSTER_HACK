@@ -36,12 +36,11 @@ print"""\033[93m
 """
 print"""\033[94m
  [1]: </> Hammer </>
- [2]: </> Hacked16-Ddos </>
- [3]: </> OwScan </>
- [4]: </> RED_HAWK </>
- [5]: </> RapidScan </>
- [6]: </> Admin_Penal </>
- [7]: </> Monster_Attacker </>
+ [2]: </> OwScan </>
+ [3]: </> RED_HAWK </>
+ [4]: </> RapidScan </>
+ [5]: </> Admin_Penal </>
+ [6]: </> Monster_Attacker </>
 """
 print"""\033[90m
 ==============================================================
@@ -49,8 +48,8 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[92m
- [8]: </> Email-Spammer </>
- [9]: </> TBomb </>
+ [7]: </> Email-Spammer </>
+ [8]: </> TBomb </>
 """
 print"""\033[91m
 ==============================================================
@@ -58,17 +57,17 @@ print"""\033[91m
 ==============================================================
 """
 print"""\033[93m
- [10]: </> Cam_Hackers </>
- [11]: </> IP-tracer </>
- [12]: </> IPGeoLocation </>
- [13]: </> Monster_WebCam </>
- [14]: </> HackVoice </>
- [15]: </> Fakepage </>
- [16]: </> Zphisher </>
- [17]: </> MRlocation </>
- [18]: </> Clipboard </>
- [19]: </> MetasPloit </>
- [20]: </> Evil-Droid </>
+ [9]: </> Cam_Hackers </>
+ [10]: </> IP-tracer </>
+ [11]: </> IPGeoLocation </>
+ [12]: </> Monster_WebCam </>
+ [13]: </> Monster_Voice </>
+ [14]: </> Fakepage </>
+ [15]: </> Zphisher </>
+ [16]: </> MRlocation </>
+ [17]: </> Monster_Copy </>
+ [18]: </> MetasPloit </>
+ [19]: </> Evil-Droid </>
 """
 print"""\033[90m
 ==============================================================
@@ -76,9 +75,9 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[94m
- [21]: </> Black_Hydra </>
- [22]: </> Gmail_Attacker </>
- [23]: </> Instahack </>
+ [20]: </> Black_Hydra </>
+ [21]: </> Gmail_Attacker </>
+ [22]: </> Instahack </>
  """
 print"""\033[96m
 =============================================================
@@ -86,16 +85,15 @@ print"""\033[96m
 =============================================================
 """
 print"""\033[95m
- [24]: </> Install All Pkg Termux </>
- [25]: </> Install All Pkg Kali Linux </>
+ [23]: </> Install All Pkg Termux </>
+ [24]: </> Install All Pkg Kali Linux </>
  """
 print"""\033[92m
  [99]: </> Exit </>
 """
 
 x= input('Enter Number For Install :')
-m= raw_input("Enter You For Install[Y/n]")
-
+ip = raw_input("\033[94m[*] \033[91mIP \033[91mTarget \033[97m>>> \033[93m ")
 if x== 1:
 	os.system("pkg install git")
 	os.system("pkg install python")
@@ -107,22 +105,13 @@ if x== 1:
 
 if x== 2:
 	os.system("pkg install git")
-	os.system("pkg install python")
-	os.system("pkg install python2")
-	os.system("git clone https://github.com/Mahdiihack/Hacked16-Ddos")
-	os.system("cd Hacked16-Ddos")
-	os.system("chmod +x *")
-	os.system("python2 Hacked16-Ddos.py")
-	
-if x== 3:
-	os.system("pkg install git")
 	os.system("pkg install php")
 	os.system("git clone https://github.com/Gameye98/OWScan")
 	os.system("cd OWScan")
 	os.system("chmod +x *")
 	os.system("php owscan.php")
 
-if x== 4:
+if x== 3:
 	os.system("pkg install git")
 	os.system("pkg install php")
 	os.system("git clone https://github.com/Tuhinshubhra/RED_HAWK")
@@ -130,7 +119,7 @@ if x== 4:
 	os.system("chmod +x *")
 	os.system("php rhawk.php")
 	
-if x== 5:
+if x== 4:
 	os.system("pkg install git")
 	os.system("pkg install wget")
 	os.system("pkg install python")
@@ -141,7 +130,7 @@ if x== 5:
 	os.system("wget -O rapidscan.py")
 	os.system("python2 rapidscan.py")
 	
-if x== 6:
+if x== 5:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -150,7 +139,7 @@ if x== 6:
 	os.system("chmod +x *")
 	os.system("python2 admin_panel_finder.py")
 	
-if x== 7:
+if x== 6:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -159,7 +148,7 @@ if x== 7:
 	os.system("chmod +x *")
 	os.system("python Monster_Attacker.py")
 
-if x== 8:
+if x== 7:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
@@ -171,7 +160,7 @@ if x== 8:
 	os.system("bash install.sh")
 	os.system("python2 Email-Spam.py")
 	
-if x== 9:
+if x== 8:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
@@ -183,7 +172,7 @@ if x== 9:
 	os.system("bash TBomb.sh")
 	os.system("TBomb")
 	
-if x== 10:
+if x== 9:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -192,7 +181,7 @@ if x== 10:
 	os.system("chmod +x *")
 	os.system("python cam-hackers.py")
 	
-if x== 11:
+if x== 10:
 	os.system("pkg install git")
 	os.system("pkg install fish")
 	os.system("pkg install sh")
@@ -201,7 +190,7 @@ if x== 11:
 	os.system("chmod +x *")
 	os.system("bash install")
 	
-if x== 12:
+if x== 11:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -211,7 +200,7 @@ if x== 12:
 	os.system("pip install -r requirements.txt")
 	os.system("python IPGeoLocation.py")
 	
-if x== 13:
+if x== 12:
 	os.system("pkg install git")
 	os.system("pkg install php")
 	os.system("pkg install wget")
@@ -225,26 +214,26 @@ if x== 13:
 	os.system("chmod +x *")
 	os.system("bash Monster_WebCam.sh")
 	
-if x== 14:
+if x== 13:
 	os.system("pkg install git")
 	os.system("pkg install php")
 	os.system("pkg install wget")
 	os.system("pkg install openssl")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
-	os.system("git clone https://github.com/HACKGM/hackvoice")
-	os.system("cd hackvoice")
+	os.system("git clone https://github.com/MONSTER-hp/Monster_Voice")
+	os.system("cd Monster_Voice")
 	os.system("chmod +x *")
-	os.system("bash voice.sh")
+	os.system("bash Monster_Voice.sh")
 	
-if x== 15:
+if x== 14:
 	os.system("pkg install git")
 	os.system("git clone https://github.com/HACKGM/fakepage")
 	os.system("cd fakepage")
 	os.system("chmod +x *")
 	os.system("bash fakepage.sh")
 	
-if x== 16:
+if x== 15:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install fish")
@@ -254,7 +243,7 @@ if x== 16:
 	os.system("chmod +x *")
 	os.system("bash zphisher.sh")
 	
-if x== 17:
+if x== 16:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -266,22 +255,22 @@ if x== 17:
 	os.system("chmod +x *")
 	os.system("python3 mrlocation.py")
 	
-if x== 18:
+if x== 17:
 	os.system("pkg install git")
 	os.system("pkg install wget")
 	os.system("pkg install php")
 	os.system("pkg install openssl")
 	os.system("pkg install openssh")
-	os.system("git clone https://github.com/HACKGM/clipboard")
+	os.system("git clone https://github.com/MONSTER-hp/Monster_Copy")
 	os.system("cd clipboard")
 	os.system("chmod +x *")
 	os.system("bash install.sh")
 	
-if x== 19:
+if x== 18:
 	os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh")
 	os.system("wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh")
 
-if x== 20:
+if x== 19:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install bash")
@@ -290,7 +279,7 @@ if x== 20:
 	os.system("chmod +x *")
 	os.system("bash Evil-Droid")
 	
-if x== 21:
+if x== 20:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -299,7 +288,7 @@ if x== 21:
 	os.system("chmod +x *")
 	os.system("python2 Black-Hydra.py")
 	
-if x== 22:
+if x== 21:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -308,7 +297,7 @@ if x== 22:
 	os.system("chmod +x *")
 	os.system("python gmail_attacker.py")
 	
-if x== 23:
+if x== 22:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -318,7 +307,7 @@ if x== 23:
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
 	
-if x== 24:
+if x== 23:
 	os.system("pkg install git")
 	os.system("pkg install update")
 	os.system("pkg install upgrade")
@@ -364,7 +353,7 @@ if x== 24:
 	os.system("pkg install pyTelegramBotAPI")
 	os.system("pkg upgrade")
 	
-if x== 25:
+if x== 24:
 	os.system("sudo apt install git")
 	os.system("sudo apt install update")
 	os.system("sudo apt install upgrade")
