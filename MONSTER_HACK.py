@@ -93,7 +93,7 @@ print"""\033[92m
 """
 
 x= input('Enter Number For Install :')
-ip = raw_input("\033[94m[*] \033[91mIP \033[91mTarget \033[97m>>> \033[93m ")
+MONSTER_hp = raw_input("Enter For Insrtall [Y/n] : ")
 if x== 1:
 	os.system("pkg install git")
 	os.system("pkg install python")
