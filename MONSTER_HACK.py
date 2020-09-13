@@ -310,6 +310,7 @@ if x== 20:
 	os.system("pkg install golang")
 	os.system("pkg install binutils")
 	os.system("pkg install pyTelegramBotAPI")
+        os.system("pip install requests ; python -m pip install requests")
 	os.system("pkg upgrade")
 	
 if x== 21:
@@ -357,6 +358,7 @@ if x== 21:
 	os.system("sudo apt install binutils")
 	os.system("sudo apt install pyTelegramBotAPI")
 	os.system("sudo apt install net-tools")
+        os.system("pip install requests ; python -m pip install requests")
 	os.system("pkg upgrade")
 	
 if x== 99:
