@@ -47,8 +47,8 @@ print"""\033[91m
 ==============================================================
 """
 print"""\033[93m
- [6] : </> Email-Spammer </>
- [7] : </> Cam_Hackers </>
+ [6]: </> Email-Spammer </>
+ [7]: </> Cam_Hackers </>
  [8]: </> IP-tracer </>
  [9]: </> IPGeoLocation </>
  [10]: </> Monster_WebCam </>
