@@ -363,3 +363,5 @@ if x== 21:
 	
 if x== 99:
 	os.system("clear")
+
+#hacked by monster_hp
