@@ -38,7 +38,7 @@ print"""\033[94m
  [1]: </> OWScan </>
  [2]: </> RED_HAWK </>
  [3]: </> RapidScan </>
- [4]: </> Admin_Penal </>
+ [4]: </> MONSTER_Scaner </>
  [5]: </> Monster_Attacker </>
 """
 print"""\033[91m
@@ -56,8 +56,7 @@ print"""\033[93m
  [12]: </> Zphisher </>
  [13]: </> MRlocation </>
  [14]: </> clipboard </>
- [15]: </> MetasPloit </>
- [16]: </> Evil-Droid </>
+ [15]: </> Evil-Droid </>
 """
 print"""\033[90m
 ==============================================================
@@ -65,9 +64,9 @@ print"""\033[90m
 ==============================================================
 """
 print"""\033[94m
- [17]: </> Black_Hydra </>
- [18]: </> Gmail_Attacker </>
- [19]: </> Instahack </>
+ [16]: </> Black_Hydra </>
+ [17]: </> Gmail_Attacker </>
+ [18]: </> Instahack </>
  """
 print"""\033[96m
 =============================================================
@@ -75,8 +74,8 @@ print"""\033[96m
 =============================================================
 """
 print"""\033[95m
- [20]: </> Install All Pkg Termux </>
- [21]: </> Install All Pkg Kali Linux </>
+ [19]: </> Install All Pkg Termux </>
+ [20]: </> Install All Pkg Kali Linux </>
  """
 print"""\033[92m
  [99]: </> Exit </>
@@ -113,12 +112,14 @@ if x== 3:
 	
 if x== 4:
 	os.system("pkg install git")
+	os.system("pip3 install colorama")
 	os.system("pkg install python")
 	os.system("pkg install python2")
-	os.system("git clone https://github.com/Techzindia/admin_penal")
-	os.system("cd admin_panel")
+	os.system("pkg install python3")
+	os.system("git clone https://github.com/MONSTER-hp/MONSTER_Scaner")
+	os.system("cd MONSTER_Scaner")
 	os.system("chmod +x *")
-	os.system("python2 admin_panel_finder.py")
+	os.system("python3 MONSTER_Scaner.py")
 	
 if x== 5:
 	os.system("pkg install git")
@@ -226,10 +227,6 @@ if x== 14:
 	os.system("bash install.sh")
 	
 if x== 15:
-	os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh")
-	os.system("wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh")
-	
-if x== 16:
 	os.system("pkg install git")
 	os.system("pkg install sh")
 	os.system("pkg install bash")
@@ -238,7 +235,7 @@ if x== 16:
 	os.system("chmod +x *")
 	os.system("bash Evil-Droid")
 	
-if x== 17:
+if x== 16:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -247,7 +244,7 @@ if x== 17:
 	os.system("chmod +x *")
 	os.system("python2 Black-Hydra.py")
 	
-if x== 18:
+if x== 17:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -256,7 +253,7 @@ if x== 18:
 	os.system("chmod +x *")
 	os.system("python gmail_attacker.py")
 
-if x== 19:
+if x== 18:
 	os.system("pkg install git")
 	os.system("pkg install python")
 	os.system("pkg install python2")
@@ -266,7 +263,7 @@ if x== 19:
 	os.system("chmod +x *")
 	os.system("python hackinsta.py")
 	
-if x== 20:
+if x== 19:
 	os.system("pkg install git -y")
 	os.system("pkg install update -y")
 	os.system("pkg install upgrade -y")
@@ -313,7 +310,7 @@ if x== 20:
         os.system("pip install requests ; python -m pip install requests -y")
 	os.system("pkg upgrade -y")
 	
-if x== 21:
+if x== 20:
 	os.system("sudo apt install git -y")
 	os.system("sudo apt install update -y")
 	os.system("sudo apt install upgrade -y")
