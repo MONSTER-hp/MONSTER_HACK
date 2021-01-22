@@ -30,7 +30,6 @@ $contact = $message->contact;
 $contactid = $contact->user_id;
 $contactnum = $contact->phone_number;
 $admin = array ("1390815208","1499154205");
-$admin2 = 
 $channel_logs = "-1001191987781";
 $rpto = $update->message->reply_to_message->forward_from->id;
 $URL = "https://metiwolf.pandamizban.ir/c";
