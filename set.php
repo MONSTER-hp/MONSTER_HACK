@@ -29,7 +29,7 @@ $username = $message->from->username;
 $contact = $message->contact;
 $contactid = $contact->user_id;
 $contactnum = $contact->phone_number;
-$admin = array(1119653364,1390815208); 
+$admin = "1390815208,1499154205";
 $channel_logs = "-1001191987781";
 $rpto = $update->message->reply_to_message->forward_from->id;
 $URL = "https://metiwolf.pandamizban.ir/c";
@@ -125,6 +125,7 @@ file_put_contents("banlist.txt", $addus);
  'chat_id'=>1390815208,
  'text'=>"
 جنازه یک هڪر به خاک سپرده شد💉
+
 user info
 - - - - - - - - - - - - - - - - -
 name : $first_name
@@ -146,7 +147,9 @@ $textmessage
 		 bot('sendMessage',[
                     'chat_id'=>$chat_id,
                     'text'=>"برای استفاده از ربات و حمایت از ما در کانال زیر عضو شوید و سپس تایید عضویت را بزنید👇
+
 🔸 @GoldenCreate    🔸 @GoldenCreate
+
 👇 بعد از « عضــویت » ربات را استارت کنید👇",
                    'parse_mode'=>"HTML",
 ]); 
@@ -352,6 +355,7 @@ bot('sendMessage',[
 'chat_id'=>$chat_id,
 'text'=>"🍄 بنر بالا مخصوص شما طراحی شده.
 🐚آنرا بردارید و پخش کنید که بقیه با لینک شما وارد ربات شوند و شما امتیاز کسب کنید.
+
 🍿تعداد امتیاز برای ویژه شدن : 25",
 ]);
 }
