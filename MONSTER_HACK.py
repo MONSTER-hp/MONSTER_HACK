@@ -12,41 +12,41 @@
 
 import os
 os.system('clear')
-print"""\033[92m
+print("""\033[92m
  __  __  ___  _   _ ____ _____ _____ ____      _   _    _    ____ _  __ 
 |  \/  |/ _ \| \ | / ___|_   _| ____|  _ \    | | | |  / \  / ___| |/ / 
 | |\/| | | | |  \| \___ \ | | |  _| | |_) |   | |_| | / _ \| |   | ' /  
 | |  | | |_| | |\  |___) || | | |___|  _ <    |  _  |/ ___ \ |___| . \  
 |_|  |_|\___/|_| \_|____/ |_| |_____|_| \_\___|_| |_/_/   \_\____|_|\_\ 
                                          |_____|                        
-"""
-print"""\033[95m
+""")
+print("""\033[95m
    >>> GitHub : https://github.com/MONSTER-hp/MONSTER_HACK <<<
-"""
-print"""\033[96m
+""")
+print("""\033[96m
      >>> Telegram Chanell : https://T.me/MONSTER_SECURIT <<<
-"""
-print"""\033[91m
+""")
+print("""\033[91m
        >>> Web Sayte : www.Monster-Security.blogfa.com <<<
-"""
-print"""\033[93m
+""")
+print("""\033[93m
 ==============================================================
                              Web
 ==============================================================
-"""
-print"""\033[94m
+""")
+print("""\033[94m
  [1]: </> OWScan </>
  [2]: </> RED_HAWK </>
  [3]: </> RapidScan </>
  [4]: </> MONSTER_Scaner </>
  [5]: </> Monster_Attacker </>
-"""
-print"""\033[91m
+""")
+print("""\033[91m
 ==============================================================
                             Hacking
 ==============================================================
-"""
-print"""\033[93m
+""")
+print("""\033[93m
  [6]: </> Email-Spammer </>
  [7]: </> Cam_Hackers </>
  [8]: </> IP-tracer </>
@@ -57,32 +57,32 @@ print"""\033[93m
  [13]: </> MRlocation </>
  [14]: </> clipboard </>
  [15]: </> Evil-Droid </>
-"""
-print"""\033[90m
+""")
+print("""\033[90m
 ==============================================================
                             Cracker
 ==============================================================
-"""
-print"""\033[94m
+""")
+print("""\033[94m
  [16]: </> Black_Hydra </>
  [17]: </> Gmail_Attacker </>
  [18]: </> Instahack </>
- """
-print"""\033[96m
+ """)
+print("""\033[96m
 =============================================================
                             Update
 =============================================================
-"""
-print"""\033[95m
+""")
+print("""\033[95m
  [19]: </> Install All Pkg Termux </>
  [20]: </> Install All Pkg Kali Linux </>
- """
-print"""\033[92m
+ """)
+print("""\033[92m
  [99]: </> Exit </>
-"""
+""")
 
-x= input('Enter Number For Install :')
-MONSTER_hp = raw_input("Enter For Insrtall [Y/n] : ")
+x= eval(input('Enter Number For Install :'))
+MONSTER_hp = eval(input("Enter For Insrtall [Y/n] : "))
 if x== 1:
 	os.system("pkg install git")
 	os.system("pkg install php")
@@ -307,7 +307,6 @@ if x== 19:
 	os.system("pkg install golang -y")
 	os.system("pkg install binutils -y")
 	os.system("pkg install pyTelegramBotAPI -y")
-        os.system("pip install requests ; python -m pip install requests -y")
 	os.system("pkg upgrade -y")
 	
 if x== 20:
@@ -355,10 +354,9 @@ if x== 20:
 	os.system("sudo apt install binutils -y")
 	os.system("sudo apt install pyTelegramBotAPI -y")
 	os.system("sudo apt install net-tools -y")
-        os.system("pip install requests ; python -m pip install requests -y")
 	os.system("pkg upgrade -y")
 	
 if x== 99:
 	os.system("clear")
 
-#hacked by monster_hp
+#coded by monster_hp
